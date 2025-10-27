@@ -1,0 +1,8 @@
+{
+  "original": 1000000,
+  "missing_fields": 262,
+  "length_anomaly": 11709,
+  "invalid_chars": 0,
+  "final_retained": 988029,
+  "retention_rate": 98.80290000000001
+}

@@ -1,0 +1,41 @@
+Token ID,Token,Category,Description
+0,<pad>,Special,Padding token
+1,<bos>,Special,Beginning of sequence
+2,<eos>,Special,End of sequence
+3,<mask>,Special,Masked token (unused in generation)
+4,A,Amino Acid,Alanine
+5,C,Amino Acid,Cysteine
+6,D,Amino Acid,Aspartic acid
+7,E,Amino Acid,Glutamic acid
+8,F,Amino Acid,Phenylalanine
+9,G,Amino Acid,Glycine
+10,H,Amino Acid,Histidine
+11,I,Amino Acid,Isoleucine
+12,K,Amino Acid,Lysine
+13,L,Amino Acid,Leucine
+14,M,Amino Acid,Methionine
+15,N,Amino Acid,Asparagine
+16,P,Amino Acid,Proline
+17,Q,Amino Acid,Glutamine
+18,R,Amino Acid,Arginine
+19,S,Amino Acid,Serine
+20,T,Amino Acid,Threonine
+21,V,Amino Acid,Valine
+22,W,Amino Acid,Tryptophan
+23,Y,Amino Acid,Tyrosine
+24,<cdr1_start>,CDR Marker,Start of CDR1
+25,<cdr1_end>,CDR Marker,End of CDR1
+26,<cdr2_start>,CDR Marker,Start of CDR2
+27,<cdr2_end>,CDR Marker,End of CDR2
+28,<cdr3_start>,CDR Marker,Start of CDR3
+29,<cdr3_end>,CDR Marker,End of CDR3
+30,<hydrophobic>,Condition,CDR3 is hydrophobic
+31,<hydrophilic>,Condition,CDR3 is hydrophilic
+32,<neutral_hydro>,Condition,CDR3 has neutral hydrophobicity
+33,<positive>,Condition,CDR3 is positively charged
+34,<negative>,Condition,CDR3 is negatively charged
+35,<neutral_charge>,Condition,CDR3 has neutral charge
+36,<aromatic>,Condition,CDR3 is aromatic
+37,<non_aromatic>,Condition,CDR3 is non-aromatic
+38,<polar>,Condition,CDR3 is polar
+39,<non_polar>,Condition,CDR3 is non-polar

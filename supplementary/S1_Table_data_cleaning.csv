@@ -1,0 +1,5 @@
+Filter Rule,Removed,Remaining,Removal %
+Missing CDR fields,262,999738,0.03%
+Length anomaly,11709,988029,1.17%
+Invalid characters,0,988029,0.00%
+Final retained,-,988029,98.8%

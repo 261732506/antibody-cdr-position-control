@@ -1,0 +1,18 @@
+
+digraph DataProcessing {
+    rankdir=TB;
+    node [shape=box, style=rounded, fontname="Arial"];
+
+    start [label="Raw Data\n11,243,567 sequences", shape=ellipse, fillcolor=lightblue, style=filled];
+    filter1 [label="Completeness Check\nRemove missing CDRs", fillcolor=lightyellow, style=filled];
+    filter2 [label="Length Filtering\n80≤seq≤200, 5≤CDR3≤35", fillcolor=lightyellow, style=filled];
+    filter3 [label="Character Validation\n20 standard amino acids", fillcolor=lightyellow, style=filled];
+    filter4 [label="CDR Substring Match\nVerify CDRs in sequence", fillcolor=lightyellow, style=filled];
+    end [label="Clean Dataset\n10,876,234 sequences (96.7%)", shape=ellipse, fillcolor=lightgreen, style=filled];
+
+    start -> filter1 [label="-262"];
+    filter1 -> filter2 [label="-11,709"];
+    filter2 -> filter3 [label="-0"];
+    filter3 -> filter4 [label="-0"];
+    filter4 -> end;
+}

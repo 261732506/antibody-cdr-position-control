@@ -1,0 +1,28 @@
+{
+  "hydrophobicity": {
+    "mean": -0.4915976643378028,
+    "std": 0.6392850788115912,
+    "min": -4.0,
+    "max": 3.5,
+    "hydrophobic": 54024,
+    "hydrophilic": 297703,
+    "neutral": 636302
+  },
+  "charge": {
+    "mean": -0.04562171999438829,
+    "std": 0.11144514786856287,
+    "positive": 78966,
+    "negative": 295240,
+    "neutral": 613823
+  },
+  "aromaticity": {
+    "mean": 0.1554452347034238,
+    "aromatic": 250763,
+    "non_aromatic": 737266
+  },
+  "polarity": {
+    "mean": 0.5201160254627654,
+    "polar": 508116,
+    "nonpolar": 479913
+  }
+}

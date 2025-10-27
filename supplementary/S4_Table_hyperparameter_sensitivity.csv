@@ -1,0 +1,16 @@
+Hyperparameter,Default Value,Alternative Values Tested,Best Performance,Notes
+Learning Rate (max),2.0e-6,"[8.0e-6, 5.0e-6, 3.0e-6, 2.0e-6, 1.0e-6]",2.0e-6,Higher rates (>3e-6) caused NaN loss
+Learning Rate (min),5.0e-7,"[1.0e-6, 5.0e-7, 1.0e-7]",5.0e-7,Too low (<1e-7) slowed convergence
+Warmup Steps,2000,"[500, 1000, 2000, 5000]",2000,Shorter warmup led to instability
+Batch Size,1024,"[256, 512, 1024, 2048]",1024,Larger sizes improved stability
+Hidden Dimension (Mamba),1024,"[512, 768, 1024, 1280]",1024,Balance between capacity and speed
+Hidden Dimension (Transformer),1024,"[512, 768, 1024, 1280]",1024,Consistent with Mamba for fair comparison
+Number of Layers (Mamba),4,"[2, 3, 4, 6]",4,More layers showed diminishing returns
+Number of Layers (Transformer),4,"[2, 3, 4, 6]",4,4 layers sufficient for sequence length 256
+Dropout Rate,0.1,"[0.0, 0.05, 0.1, 0.2]",0.1,Lower rates (<0.05) led to overfitting
+Weight Decay,0.01,"[0.0, 0.001, 0.01, 0.1]",0.01,Standard value worked well
+Gradient Clipping Norm,1.0,"[0.5, 1.0, 2.0, 5.0]",1.0,Prevented gradient explosion
+State Dimension (Mamba),128,"[64, 128, 256]",128,Higher didn't improve performance
+Expansion Factor (Mamba),6,"[4, 6, 8]",6,Default Mamba recommendation
+Attention Heads (Transformer),8,"[4, 8, 12, 16]",8,Standard multi-head configuration
+FFN Dimension (Transformer),4096,"[2048, 4096, 8192]",4096,Standard 4x expansion ratio
