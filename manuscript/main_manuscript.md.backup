@@ -636,8 +636,8 @@ This work advances computational antibody design by solving the CDR positioning 
 **Processed artifacts:** The complete dataset of IMGT/ANARCI-numbered VH sequences with CDR position markers, train/validation split indices (80/20), and computed CDR3 physicochemical property labels are included in the archived materials.
 
 **Code & models:** All training, inference, and evaluation scripts along with model checkpoints are deposited at **Zenodo** with a concept DOI reserved for this submission. For peer review, anonymous access is provided at the following links:
-- Code repository (GitHub): https://github.com/261732506/antibody-cdr-position-control
-- Model checkpoints (Zenodo): https://zenodo.org/records/17456002
+- Code repository (GitHub): [ANONYMOUS_REPO_LINK - to be provided at submission]
+- Model checkpoints (Zenodo): [ANONYMOUS_ZENODO_LINK - to be provided at submission]
 
 Upon publication, these anonymous links will be replaced with permanent public DOIs.
 

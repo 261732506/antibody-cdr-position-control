@@ -98,8 +98,8 @@ None.
 
 In accordance with PLOS ONE's data availability policy, we confirm:
 
-- **Code repository:** Anonymous GitHub access is provided for peer review at https://github.com/261732506/antibody-cdr-position-control. The repository contains all preprocessing, training, and evaluation code with complete documentation.
-- **Model checkpoints:** Anonymous Zenodo access is provided at https://zenodo.org/records/17456002 with trained weights for both Mamba (88.6M) and Transformer (50.5M) models.
+- **Code repository:** Anonymous GitHub access is provided for peer review at [ANONYMOUS_REPO_LINK - to be provided at submission]. The repository contains all preprocessing, training, and evaluation code with complete documentation.
+- **Model checkpoints:** Anonymous Zenodo access is provided at [ANONYMOUS_ZENODO_LINK - to be provided at submission] with trained weights for both Mamba (88.6M) and Transformer (50.5M) models.
 - **Training datasets:** Publicly available from OAS (https://opig.stats.ox.ac.uk/webapps/oas, accessed January 2023) and SAbDab (http://opig.stats.ox.ac.uk/webapps/newsabdab, accessed March 2023). Download scripts with exact query parameters are included in the repository.
 - **Supplementary data:** All statistics, intermediate results, and supporting tables provided as CSV and JSON files in the submission package.
 
