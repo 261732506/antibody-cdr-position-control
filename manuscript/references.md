@@ -1,4 +1,4 @@
-# Complete Reference List for PLOS ONE Submission
+# Complete Reference List for Preprint and Journal Submission
 ## Vancouver Style Format - 44 Citations
 
 1. Crescioli S, Kaplon H, Chenoweth A, Wang L, Visweswaraiah J, Reichert JM. Antibodies to watch in 2024. MAbs. 2024;16(1):2297450.

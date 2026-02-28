@@ -1,16 +1,16 @@
-# Cover Letter for PLOS ONE Submission
+# Cover Letter for Bioinformatics Application Note Submission
 
 **Date:** October 25, 2025
 
-**To:** PLOS ONE Editorial Office
+**To:** Bioinformatics Editorial Office
 
-**Re:** Submission of Research Article "Precise CDR Position Control in Antibody Sequence Generation Using Conditional Deep Generative Models"
+**Re:** Submission of Application Note "Precise CDR Position Control in Antibody Sequence Generation Using Conditional Deep Generative Models"
 
 ---
 
 Dear Editor,
 
-We are pleased to submit our manuscript entitled "**Precise CDR Position Control in Antibody Sequence Generation Using Conditional Deep Generative Models**" for consideration as a Research Article in PLOS ONE.
+We are pleased to submit our manuscript entitled "**Precise CDR Position Control in Antibody Sequence Generation Using Conditional Deep Generative Models**" for consideration as an Application Note in Bioinformatics.
 
 ## Significance and Novelty
 
@@ -26,23 +26,23 @@ Therapeutic antibody design remains a critical challenge in modern medicine, wit
 
 4. **Large-scale validation** using 10.88 million real antibody sequences and 117 GPU-hours of training
 
-## Suitability for PLOS ONE
+## Suitability for Bioinformatics
 
-This work aligns perfectly with PLOS ONE's scope and standards:
+This work aligns with Bioinformatics' scope on computational methods and tools for biological research:
 
 - **Rigorous methodology:** Comprehensive statistical validation (t-tests, Cohen's d effect sizes, 98.8% data retention rate)
 - **Reproducibility:** All code, models, and data publicly available; detailed hyperparameters and training configurations provided
 - **Broad impact:** Addresses challenges in computational biology, machine learning, and therapeutic development
 - **Ethical compliance:** Uses only publicly available datasets (OAS, SAbDab); no human/animal subjects
 
-## Why PLOS ONE
+## Why Bioinformatics
 
-We chose PLOS ONE for several reasons:
+We selected Bioinformatics for several reasons:
 
-1. **Open access philosophy:** Ensures our tools reach the widest possible audience in the research community
-2. **Interdisciplinary scope:** Bridges deep learning, structural biology, and drug discovery
-3. **Data transparency standards:** Aligns with our commitment to full reproducibility
-4. **Rapid peer review:** Important for timely dissemination of computational tools
+1. **Methodological fit:** Strong focus on robust computational methods and benchmarked tools
+2. **Community reach:** High visibility in bioinformatics and computational biology communities
+3. **Reproducibility emphasis:** Aligns with our open code/model release and benchmark reporting
+4. **Application Note format:** Appropriate for practical tool dissemination and reuse
 
 ## Competing Interests
 
@@ -96,14 +96,14 @@ None.
 
 ## Data and Code Availability
 
-In accordance with PLOS ONE's data availability policy, we confirm:
+In line with reproducibility and data/code availability best practices, we confirm:
 
-- **Code repository:** Anonymous GitHub access is provided for peer review at https://github.com/261732506/antibody-cdr-position-control. The repository contains all preprocessing, training, and evaluation code with complete documentation.
-- **Model checkpoints:** Anonymous Zenodo access is provided at https://zenodo.org/records/17456002 with trained weights for both Mamba (88.6M) and Transformer (50.5M) models.
+- **Code repository:** Public GitHub repository is available at https://github.com/261732506/antibody-cdr-position-control, containing all preprocessing, training, and evaluation code with complete documentation.
+- **Model checkpoints:** Public Zenodo archive is available at https://doi.org/10.5281/zenodo.17456002, including trained weights for both Mamba (88.6M) and Transformer (50.5M) models.
 - **Training datasets:** Publicly available from OAS (https://opig.stats.ox.ac.uk/webapps/oas, accessed January 2023) and SAbDab (http://opig.stats.ox.ac.uk/webapps/newsabdab, accessed March 2023). Download scripts with exact query parameters are included in the repository.
 - **Supplementary data:** All statistics, intermediate results, and supporting tables provided as CSV and JSON files in the submission package.
 
-Upon publication, all anonymous links will be replaced with permanent public DOIs. A Zenodo concept DOI has been reserved for this submission. This complies with PLOS ONE's data policy requiring availability of the minimal dataset necessary to replicate the findings.
+All key artifacts required to reproduce results are already publicly accessible through the GitHub repository and Zenodo DOI listed above.
 
 ## Funding Statement
 
@@ -115,7 +115,7 @@ This study uses only publicly available, de-identified antibody sequence data fr
 
 ## Use of Generative AI
 
-We used generative AI (Claude, Anthropic) only for language editing and formatting consistency checks in non-technical sections. All scientific content—including methods, results, data analysis, figures, and references—was produced and verified by the authors. We understand and comply with PLOS policies on AI and authorship.
+We used generative AI (Claude, Anthropic) only for language editing and formatting consistency checks in non-technical sections. All scientific content—including methods, results, data analysis, figures, and references—was produced and verified by the authors. We understand and comply with journal and COPE guidance on AI usage and authorship accountability.
 
 ## Correspondence
 
@@ -140,7 +140,7 @@ Tsinghua University
 - Manuscript file (Word/LaTeX)
 - Figures (separate files, 300 dpi)
 - Supplementary materials
-- PLOS ONE submission checklist (completed)
+- Bioinformatics submission checklist (to be completed at submission)
 
 ---
 

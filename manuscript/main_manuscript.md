@@ -635,15 +635,13 @@ This work advances computational antibody design by solving the CDR positioning 
 
 **Processed artifacts:** The complete dataset of IMGT/ANARCI-numbered VH sequences with CDR position markers, train/validation split indices (80/20), and computed CDR3 physicochemical property labels are included in the archived materials.
 
-**Code & models:** All training, inference, and evaluation scripts along with model checkpoints are deposited at **Zenodo** with a concept DOI reserved for this submission. For peer review, anonymous access is provided at the following links:
+**Code & models:** All training, inference, and evaluation scripts along with model checkpoints are publicly available. The following links provide access to code and weights:
 - Code repository (GitHub): https://github.com/261732506/antibody-cdr-position-control
-- Model checkpoints (Zenodo): https://zenodo.org/records/17456002
-
-Upon publication, these anonymous links will be replaced with permanent public DOIs.
+- Model checkpoints (Zenodo): https://doi.org/10.5281/zenodo.17456002
 
 **Reproducibility:** The repository includes: (1) data preprocessing and CDR position marking algorithms, (2) PyTorch model implementations, (3) training configuration files, (4) evaluation and statistical analysis scripts, (5) trained model weights (88.6M Mamba and 50.5M Transformer checkpoints), (6) environment specifications (requirements.txt and conda environment.yml), (7) complete reproduction instructions, and (8) Jupyter notebooks with usage examples.
 
-This complies with PLOS ONE's data policy on public availability of the minimal dataset underlying the results and facilitates computational reproducibility.
+This data and code release supports transparent, reusable, and computationally reproducible research.
 
 ---
 
@@ -653,7 +651,7 @@ We thank the maintainers of the Observed Antibody Space (OAS) and Structural Ant
 
 ### Use of Generative AI
 
-During manuscript preparation, we used **Claude** (Anthropic) for language editing and for drafting brief text suggestions in non-technical sections (e.g., cover letter boilerplate, formatting consistency checks). All technical content—including methods, results, statistical analyses, figures, and references—was authored, verified, and is fully accountable by the authors. No AI tools were used for data analysis, model training, experimental design, figure generation, or reference creation. The authors are responsible for the accuracy and integrity of all content. This disclosure follows PLOS policies on AI tools and technologies.
+During manuscript preparation, we used **Claude** (Anthropic) for language editing and for drafting brief text suggestions in non-technical sections (e.g., cover letter boilerplate, formatting consistency checks). All technical content—including methods, results, statistical analyses, figures, and references—was authored, verified, and is fully accountable by the authors. No AI tools were used for data analysis, model training, experimental design, figure generation, or reference creation. The authors are responsible for the accuracy and integrity of all content. This disclosure follows preprint and journal transparency guidelines on AI tool usage.
 
 ---
 
@@ -756,7 +754,7 @@ During manuscript preparation, we used **Claude** (Anthropic) for language editi
 - Tables: 12 main + 4 supplementary
 - References: 44 citations
 - Submission date: [To be determined]
-- Journal: PLOS ONE
+- Target journal: Bioinformatics (Application Note)
 
 ---
 

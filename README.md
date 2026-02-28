@@ -1,11 +1,11 @@
 # Precise CDR Position Control in Antibody Sequence Generation
 
-**Anonymous Repository for Peer Review**
+**Public Repository for Preprint and Reproducibility**
 
 This repository contains the complete code and data for the manuscript:
 
 > **"Precise CDR Position Control in Antibody Sequence Generation Using Conditional Deep Generative Models"**
-> Submitted to *PLOS ONE* (October 2025)
+> bioRxiv preprint (submission in progress) | Target journal: *Bioinformatics* (Application Note)
 
 ---
 
@@ -109,7 +109,7 @@ Generate antibody sequences with CDR position control:
 
 ```bash
 python scripts/generate_sequences.py \
-  --model_path [ZENODO_CHECKPOINT_PATH] \
+  --model_path ./checkpoints/mamba_best_model.pt \
   --model_type mamba \
   --num_sequences 100 \
   --condition hydrophobic,positive \
@@ -122,7 +122,7 @@ Reproduce manuscript results:
 
 ```bash
 python scripts/evaluate.py \
-  --model_path [ZENODO_CHECKPOINT_PATH] \
+  --model_path ./checkpoints/mamba_best_model.pt \
   --test_data ./data/processed/test_set.csv \
   --output_dir ./results/
 ```
@@ -146,8 +146,8 @@ python scripts/evaluate.py \
 
 Pre-trained model weights are available on **Zenodo**:
 
-- **Mamba checkpoint (88.6M params):** [ZENODO_LINK_TO_BE_INSERTED]
-- **Transformer checkpoint (50.5M params):** [ZENODO_LINK_TO_BE_INSERTED]
+- **Mamba checkpoint (88.6M params):** https://doi.org/10.5281/zenodo.17456002 (file: `mamba_best_model.pt`)
+- **Transformer checkpoint (50.5M params):** https://doi.org/10.5281/zenodo.17456002 (file: `transformer_best_model.pt`)
 
 **Files included in Zenodo archive:**
 ```
@@ -166,12 +166,12 @@ antibody_models_v1.0.zip
 If you use this code or models in your research, please cite:
 
 ```bibtex
-@article{jiang2025antibody,
+@misc{jiang2025antibody,
   title={Precise CDR Position Control in Antibody Sequence Generation Using Conditional Deep Generative Models},
   author={Jiang, Pan},
-  journal={PLOS ONE},
   year={2025},
-  note={Under review}
+  howpublished={bioRxiv preprint (in submission)},
+  url={https://github.com/261732506/antibody-cdr-position-control}
 }
 ```
 
@@ -197,10 +197,10 @@ The trained models are released under **CC BY 4.0** license.
 
 For questions regarding this work, please contact the corresponding author via the information provided in the published manuscript.
 
-**Note:** This is an anonymous repository for peer review. Author identities and full contact information will be revealed upon publication acceptance.
+**Note:** This is a public repository for reproducibility. Metadata and links will be updated after bioRxiv posting and journal submission.
 
 ---
 
-**Last Updated:** October 2025
-**Repository Status:** Anonymous submission for peer review
-**Manuscript Status:** Under review at PLOS ONE
+**Last Updated:** February 2026
+**Repository Status:** Public repository for preprint and reproducibility
+**Manuscript Status:** bioRxiv submission in progress; target journal Bioinformatics (Application Note)
